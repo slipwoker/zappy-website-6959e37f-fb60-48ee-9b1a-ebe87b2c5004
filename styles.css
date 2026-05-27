@@ -8503,6 +8503,14 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+.home-story-section .home-story-section__img-main {
+  z-index: 1;
+}
+
+.home-story-section .home-story-section__img-back {
+  z-index: 3;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
